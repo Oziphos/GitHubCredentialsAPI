@@ -60,3 +60,15 @@ export const getUsers = async () => {
     throw error.message;
   }
 };
+
+export const getContributors = async () => {
+  try {
+    const response = await api.get(
+      `/repos/${USER_NAME}/${REPO_NAME}/contributors`
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching contributors:", error.message);
+    throw error.message;
+  }
+};

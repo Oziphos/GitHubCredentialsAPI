@@ -7,5 +7,6 @@ router.get("/repository", githubApiController.getRepository);
 router.get("/commits", githubApiController.getCommits);
 router.get("/branches", githubApiController.getBranches);
 router.get("/users", githubApiController.getUsers);
+router.get("/contributors", githubApiController.getContributors);
 
 export default router;
