@@ -10,7 +10,10 @@ const __dirname = path.dirname(__filename);
 
 import githubRoutes from "./routes/githubApiRoutes.js";
 
+import cors from "cors";
+
 const app = express();
+app.use(cors());
 app.use(express.static(path.join(__dirname, "/")));
 
 app.get("/", (req, res) => {
