@@ -1,5 +1,13 @@
 ## Routes d'api Github :
 
+### Prérequis :
+
+- Dossier **`.env`** à la racine, contenant les informations suivantes :
+  - **`API_URL`** Le lien vers l'api Github (*"https://api.github.com"*)
+  - **`USER_NAME`** Le nom du propriétaire du dépôt
+  - **`REPO_NAME`** Le nom du dépôt
+  - **`GITHUB_TOKEN`** Le token Github d'un membre ayant les droits de lecture sur le dépôt
+
 ### Routes GET :
 
 - **`<adresse_serveur>/api/repository`**

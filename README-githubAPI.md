@@ -1,7 +1,5 @@
 ## Routes d'api Github :
 
-Prérequis : le repo doit être public
-
 Nombre de requêtes :
 
 - Authentifié : 5000 / h
