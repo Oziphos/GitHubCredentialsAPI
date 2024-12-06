@@ -15,6 +15,8 @@ const api = axios.create({
     Accept: "application/vnd.github+json",
     "User-Agent": "CredentialsPage",
     Authorization: `Bearer ${GITHUB_TOKEN}`,
+    "Access-Control-Allow-Origin": "*",
+    withCredentials: false,
   },
 });
 
