@@ -38,3 +38,12 @@ export const getUsers = async (req, res) => {
     res.status(500).json({ success: false, message: error });
   }
 };
+
+export const getContributors = async (req, res) => {
+  try {
+    const data = await githubApiService.getContributors();
+    res.status(200).json({ success: true, data });
+  } catch (error) {
+    res.status(500).json({ success: false, message: error });
+  }
+};

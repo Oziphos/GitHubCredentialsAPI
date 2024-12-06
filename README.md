@@ -435,3 +435,39 @@
     ```
 
   </details>
+
+- **`<adresse_serveur>/api/contributors`**
+
+  - Description : Renvoie la liste des contributeurs du dépôt (le nombre de contributions)
+
+  - <details>
+        <summary>Retour</summary>
+
+    ```json
+    [
+      {
+        "login": "Oziphos",
+        "id": 106010906,
+        "node_id": "U_kgDOBlGZGg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/106010906?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Oziphos",
+        "html_url": "https://github.com/Oziphos",
+        "followers_url": "https://api.github.com/users/Oziphos/followers",
+        "following_url": "https://api.github.com/users/Oziphos/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Oziphos/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Oziphos/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Oziphos/subscriptions",
+        "organizations_url": "https://api.github.com/users/Oziphos/orgs",
+        "repos_url": "https://api.github.com/users/Oziphos/repos",
+        "events_url": "https://api.github.com/users/Oziphos/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Oziphos/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false,
+        "contributions": 2
+      }
+    ]
+    ```
+
+    </details>
